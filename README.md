@@ -68,12 +68,6 @@
 | 🔬 **Interpretability** | Mechanistic interp, activation steering, sparse autoencoders | `ADV` |
 | 🌍 **Long-context & Memory** | 1M+ tokens, RoPE scaling, external memory, retrieval augmentation | `ADV` |
 
----
-
-<p align="center">
-  <b>GenAI Roadmap · Built for engineers who ship · Updated 2026</b><br>
-  <i>Master one phase before moving to the next</i>
-</p>
 
 
 # 🌌 Build *Five* GenAI Projects
