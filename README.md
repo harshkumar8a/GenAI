@@ -1,4 +1,4 @@
-# 🌌 Generative AI
+# 🌌 Generative AI Roadmap
 **Engineering Roadmap · 2024–2026** *A structured path from foundations to frontier systems*
 
 ---
