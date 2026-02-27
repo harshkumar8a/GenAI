@@ -74,3 +74,117 @@
   <b>GenAI Roadmap · Built for engineers who ship · Updated 2026</b><br>
   <i>Master one phase before moving to the next</i>
 </p>
+
+
+# 🌌 Build *Five* GenAI Projects
+**GenAI Project Series ·*Curated projects from zero-to-hero · Each one harder than the last · Ship all five to be production-ready*
+
+---
+
+### 🟡 Starter ━━━ 🟢 Beginner ━━━ 🔵 Intermediate ━━━ 🟠 Advanced ━━━ 🟣 Expert
+
+---
+
+## 01. AI-Powered FAQ Chatbot
+> **"Hello, World" of GenAI — but actually useful**
+
+| Detail | Context |
+| :--- | :--- |
+| **Level** | `STARTER` |
+| **Effort** | ~1–2 days |
+| **Complexity** | ▓░░░░░░░░░ (18%) |
+
+### 📝 Description
+Build a simple conversational chatbot that answers questions from a predefined knowledge base (FAQ document or JSON). The user types a question, the LLM reads the context and responds naturally. No databases, no vector search — just prompt engineering and an API call.
+
+* **What you'll learn:** OpenAI/Anthropic API, System prompts, Context injection, Prompt templates, Streamlit UI.
+* **Tech Stack:** Python, OpenAI SDK, Streamlit, JSON/TXT.
+
+> **📦 WHAT YOU SHIP:** A working Streamlit web app where users can ask questions and get instant, context-aware answers — deployed locally or on Streamlit Cloud.
+
+---
+
+## 02. Document Q&A with RAG
+> **Upload any PDF — interrogate it like a senior analyst**
+
+| Detail | Context |
+| :--- | :--- |
+| **Level** | `BEGINNER` |
+| **Effort** | ~1 week |
+| **Complexity** | ▓▓▓░░░░░░░ (36%) |
+
+
+
+### 📝 Description
+Upgrade the chatbot with Retrieval-Augmented Generation. Users upload a PDF, the system chunks and embeds it into a vector store, and retrieves the most relevant chunks at query time. Adds meaningful engineering: chunking strategy, embedding models, similarity search, and citation sourcing.
+
+* **What you'll learn:** Chunking strategies, Embeddings, Vector similarity search, RAG pipeline, Source citations.
+* **Tech Stack:** LangChain, FAISS / Chroma, OpenAI Embeddings, PyMuPDF, FastAPI.
+
+> **📦 WHAT YOU SHIP:** A full-stack app where users drag-and-drop any PDF, ask questions, and get answers with exact page citations.
+
+---
+
+## 03. AI Research Agent with Tool Use
+> **Give the LLM hands — let it search, read, and reason autonomously**
+
+| Detail | Context |
+| :--- | :--- |
+| **Level** | `INTERMEDIATE` |
+| **Effort** | ~2–3 weeks |
+| **Complexity** | ▓▓▓▓▓░░░░░ (55%) |
+
+### 📝 Description
+Build an autonomous research agent that can browse the web, summarize articles, extract data, and produce structured reports. Implement the **ReAct** loop (Reason → Act → Observe) and handle multi-step tool chaining, retries, and final synthesis.
+
+* **What you'll learn:** Tool/function calling, ReAct pattern, Agent loops, Multi-step planning, Error recovery, Structured output.
+* **Tech Stack:** LangChain Agents, Tavily / SerpAPI, Pydantic, Redis (memory), Next.js frontend.
+
+> **📦 WHAT YOU SHIP:** An agent you can prompt with "Research the top 5 AI startups in 2025" and it returns a polished structured report autonomously.
+
+---
+
+## 04. Domain-Specific Fine-Tuned Model + API
+> **Stop prompting. Start training. Own the model.**
+
+| Detail | Context |
+| :--- | :--- |
+| **Level** | `ADVANCED` |
+| **Effort** | ~4–6 weeks |
+| **Complexity** | ▓▓▓▓▓▓▓░░░ (74%) |
+
+### 📝 Description
+Fine-tune an open-source model (Mistral 7B or Llama 3) on a domain-specific dataset (medical, legal, or code). Use LoRA/QLoRA for efficient training, evaluate with quantitative benchmarks, and wrap it in a production FastAPI service with auth and rate limiting.
+
+* **What you'll learn:** LoRA / QLoRA, Instruction tuning, Dataset curation, PEFT, Model evaluation, HF Hub deployment, API productionization.
+* **Tech Stack:** Hugging Face PEFT, bitsandbytes, TRL / SFTTrainer, W&B, FastAPI, vLLM, Docker.
+
+> **📦 WHAT YOU SHIP:** A domain-expert LLM outperforming GPT-3.5 on your chosen task, served via a production API with auth + rate limiting.
+
+---
+
+## 05. Multi-Agent Autonomous Coding Assistant
+> **Build the system that builds systems. Ship a junior dev in a box.**
+
+| Detail | Context |
+| :--- | :--- |
+| **Level** | `EXPERT` |
+| **Effort** | ~2–3 months |
+| **Complexity** | ▓▓▓▓▓▓▓▓▓▓ (95%) |
+
+
+
+### 📝 Description
+Design a production multi-agent system where specialized agents (Planner, Coder, Reviewer, Tester) collaborate to solve complex software engineering tasks. Includes human-in-the-loop approval, persistent memory, and a full observability stack.
+
+* **What you'll learn:** Multi-agent orchestration, Agent communication protocols, Persistent memory, Human-in-the-loop, Streaming SSE, LLM observability, Cost optimization, Sandboxed code execution.
+* **Tech Stack:** LangGraph, AutoGen / CrewAI, LangSmith, PostgreSQL + pgvector, WebSockets, E2B (sandboxes), Kubernetes, OpenTelemetry.
+
+> **📦 WHAT YOU SHIP:** A working AI coding assistant where describing a feature in English leads to a swarm of agents planning, coding, and submitting a pull request.
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/harshkumar-8h/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="harshkumar-8h/" height="30" width="40" /></a>
+</p>
+
+
